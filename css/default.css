@@ -1,0 +1,163 @@
+body {
+	background-color:#484444;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:lightgrey;
+	background-image:url('../gfx/rasen.jpg');
+	background-position:bottom;
+	bakcground-repeat:repeat-x;
+}
+
+a { 
+	color:lightblue;
+	text-decoration:none;
+}
+
+td {
+	padding-right:20px;
+}
+
+div {
+	/* border:1px dashed lightgrey; */
+}
+
+th {
+	border-bottom:2px solid lightgrey;
+	color:white;
+}
+
+#personalbar {
+	/* font-style:italic; */
+	font-weight:bold;
+}
+
+#upcoming {
+	margin-top:20px;
+}
+
+#upcoming table, #upcoming tr {
+	border:1px solid lightgrey;
+}
+
+#upcoming td {
+	/* border-bottom:1px solid lightgrey; */
+	padding:3px 15px 3px 3px;
+}
+
+
+
+#matchday {
+	
+}
+
+#playercount {
+	margin-top:30px;	
+}
+
+#playerlist {
+	margin-top:20px;
+}
+
+#matchinfo {
+	margin-top:20px;
+	float:right;
+	border:1px solid lightgrey;
+	background-color:#222;
+	width:50%;
+}
+
+#messagebox {
+	margin-top:20px;
+	text-align:left;
+}
+
+#messagebox .message {
+	margin-top: 5px;
+}
+
+#messagebox .headline {
+	color:white;
+	border-bottom:1px solid lightgrey;
+}
+
+#messagebox .date {
+	margin-left:50px;
+	font-style:italic;
+	font-size:80%;
+}
+
+#messagebox img {
+	float:left;
+	margin-right: 5px;
+}
+
+#messagebox .text {
+	font-family:Verdana;
+	font-size:80%;
+}
+
+#bottombg {
+	position:fixed;
+	bottom:0px;
+	height:800px;
+	width:100%;
+	background-image:url('../gfx/rasen.jpg');
+	background-position:bottom;
+	z-index:-100;
+}
+
+#content {
+	background-color:rgba(30,30,30,0.8);
+	border-radius: 15px;
+	max-width:1000px;
+	padding:50px;
+	margin:0px;
+}
+
+.iconbox {
+	magrin-right:20px;
+	background-color:#222;
+	font-family: 'Lobster Two', cursive;
+	font-style:italic;
+	font-weight:bold;
+	padding:10px 70px 0px 20px;
+	border:1px solid lightgrey;
+	display:inline-block;
+	font-size:400%;
+}
+
+.icontitle {
+	margin:-10px -70px -10px -20px;
+	font-size:20%;
+	disply:block;
+	color:lightgrey;
+	width:250%;
+	text-transform:uppercase;
+	text-align:center;
+	border-bottom:1px solid lightgrey;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.infotext {
+	font-family:Verdana;
+	font-size:10px;
+}
+
+.username {
+	color:white;
+}
+
+.good {
+	color:lightgreen;
+}
+
+.bad {
+	color:#F88;
+}
+
+.ok {
+	color:yellow;
+}
+
+.clearleft {
+	clear:left;
+}
